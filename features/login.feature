@@ -32,7 +32,7 @@ Feature: Login
       | http://192.168.1.95:9091/admin/login/?next=/admin/ | testeur_integration_2      | testeur_qa_2_faux |
       | http://192.168.1.95:9091/admin/login/?next=/admin/ | testeur_integration_2_faux | testeur_qa_2      |
 
-    @int
+    @recette
     Examples:
       | env                                                | username               | password          |
       | http://192.168.1.95:9092/admin/login/?next=/admin/ | testeur_recette        | testeur_qa_3_faux |
