@@ -10,7 +10,7 @@ class DashboardPage {
     elements = {
         CreatepostButton: () => this.page.locator('a:has-text("Add")'),
         postList: () => this.page.locator('.actionlist'), 
-        postLinks: () => this.page.locator('.actionlist .addlink a'), 
+        postLinks: () => this.page.locator('.field-title a'), 
     };
 
     async clickCreatePostButton() {

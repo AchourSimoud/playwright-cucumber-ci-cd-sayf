@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cucumber-js",
-    "only": "npx cucumber-js  --tags "
+    "only": "npx cucumber-js --format json:reports/cucumber-report.json --tags "
   },
   "keywords": [],
   "author": "",

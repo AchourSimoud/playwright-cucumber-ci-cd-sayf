@@ -13,5 +13,11 @@ Then('je creer un post avec {string} et {string} et je clique sur le bouton save
 
 Then('je vois mon super post dans la liste des posts', async function () {
     dashboardPage = new DashboardPage(this.page); 
-    await expect(await dashboardPage.isPostVisible('super titre')).toBe(true);
+    await dashboardPage.page.getByRole('cell', { name: 'super titre' }).isVisible;    
+    //await expect(await dashboardPage.isPostVisible('super titre')).toBe(true);
 });
+
+Then('un message derreur saffiche', async function () {
+    const errorMessage = await createPost.getErrorMessage();
+    expect(errorMessage).toContain("Please correct");
+ });

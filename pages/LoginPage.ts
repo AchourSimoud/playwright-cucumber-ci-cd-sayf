@@ -16,8 +16,8 @@ class LoginPage {
         dashboardTitle: () => this.page.locator('#site-name'),
     };
 
-    async goto(s:string) {
-        await this.page.goto(s);
+    async goto(url: string) {
+        await this.page.goto(`${url}`);
     }
 
     async fillUsername(username: string){
