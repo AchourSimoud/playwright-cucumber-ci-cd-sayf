@@ -1,36 +1,41 @@
 Feature: Login
 
+  @valid
   Scenario Outline: Successful login
-    Given I open the login page for "<env>"
+    Given I open the login page "<env>"
     When I login with username "<username>" and password "<password>"
     Then I should be redirected to the dashboard
 
-    @env1
+    @int
     Examples:
-      | username            | password     | env  |
-      | testeur_integration | testeur_qa   | env1 |
-      | testeur_integration | testeur_qa_2 | env1 |
+      | env                                                | username              | password     |
+      | http://192.168.1.95:9091/admin/login/?next=/admin/ | testeur_integration   | testeur_qa   |
+      | http://192.168.1.95:9091/admin/login/?next=/admin/ | testeur_integration_2 | testeur_qa_2 |
 
-    @env2
+    @recette
     Examples:
-      | username        | password     | env  |
-      | testeur_recette | testeur_qa_3 | env2 |
-      | testeur_recette | testeur_qa_4 | env2 |
+      | env                                                | username          | password     |
+      | http://192.168.1.95:9092/admin/login/?next=/admin/ | testeur_recette   | testeur_qa_3 |
+      | http://192.168.1.95:9092/admin/login/?next=/admin/ | testeur_recette_2 | testeur_qa_4 |
 
-  @invalids
+  @invalid
   Scenario: Failed login with wrong credentials
-    Given I open the login page for "<env>"
+    Given I open the login page "<env>"
     When I login with username "<username>" and password "<password>"
     Then I should see an error message
 
-    @env1
+    @int
     Examples:
-      | username            | password   | env  |
-      | faux                | testeur_qa | env1 |
-      | testeur_integration | faux       | env1 |
+      | env                                                | username                   | password          |
+      | http://192.168.1.95:9091/admin/login/?next=/admin/ | testeur_integration        | testeur_qa_faux   |
+      | http://192.168.1.95:9091/admin/login/?next=/admin/ | testeur_integration_faux   | testeur_qa        |
+      | http://192.168.1.95:9091/admin/login/?next=/admin/ | testeur_integration_2      | testeur_qa_2_faux |
+      | http://192.168.1.95:9091/admin/login/?next=/admin/ | testeur_integration_2_faux | testeur_qa_2      |
 
-    @env2
+    @recette
     Examples:
-      | username        | password     | env  |
-      | faux            | testeur_qa_3 | env2 |
-      | testeur_recette | faux         | env2 |
+      | env                                                | username               | password          |
+      | http://192.168.1.95:9092/admin/login/?next=/admin/ | testeur_recette        | testeur_qa_3_faux |
+      | http://192.168.1.95:9092/admin/login/?next=/admin/ | testeur_recette_faux   | testeur_qa_3      |
+      | http://192.168.1.95:9092/admin/login/?next=/admin/ | testeur_recette_2      | testeur_qa_4_faux |
+      | http://192.168.1.95:9092/admin/login/?next=/admin/ | testeur_recette_2_faux | testeur_qa_4      |
