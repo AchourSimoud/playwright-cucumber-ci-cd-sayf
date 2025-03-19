@@ -5,10 +5,9 @@ import CreatePost from '../pages/CreatePost';
 
 let loginPage: LoginPage;
 
-Given('I open the login page', async function () {
+Given('I open the login page {string}', async function (s:string) {
     loginPage = new LoginPage(this.page); 
-    await loginPage.goto();
-    await loginPage.clickContinue();
+    await loginPage.goto(s);
 });
 
 When('I login with username {string} and password {string}', async function (username: string, password: string) {

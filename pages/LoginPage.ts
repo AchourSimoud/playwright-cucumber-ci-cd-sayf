@@ -16,8 +16,8 @@ class LoginPage {
         dashboardTitle: () => this.page.locator('#site-name'),
     };
 
-    async goto() {
-        await this.page.goto('https://58g6w7d4-9091.uks1.devtunnels.ms/admin/login/?next=/admin/');
+    async goto(s:string) {
+        await this.page.goto(s);
     }
 
     async fillUsername(username: string){
