@@ -5,12 +5,9 @@ import CreatePost from '../pages/CreatePost';
 
 let loginPage: LoginPage;
 
-Given('I open the login page for {string}', async function (env: string) {
-    loginPage = new LoginPage(this.page);
-    const url = this.parameters[`${env}Url`];
-    console.log(`Ouverture de l'URL pour ${env}: ${url}`);  
-    await loginPage.goto(url);
-    await loginPage.clickContinue();
+Given('I open the login page {string}', async function (s:string) {
+    loginPage = new LoginPage(this.page); 
+    await loginPage.goto(s);
 });
 
 When('I login with username {string} and password {string}', async function (username: string, password: string) {

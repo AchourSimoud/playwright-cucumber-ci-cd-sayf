@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 854576920
+              "duration": 1145145397
             }
           },
           {
@@ -22,12 +22,9 @@
             "keyword": "Given ",
             "line": 6,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 509970246
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -36,11 +33,11 @@
             "line": 7,
             "name": "I login with username \"testeur_integration\" and password \"testeur_qa\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 3081166275
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -52,9 +49,8 @@
               "location": "step-definitions/dashboard.steps.ts:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 2248098,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'clickCreatePostButton')\n    at AllureCucumberWorld.<anonymous> (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:15:25)\n    at /home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:8:71\n    at __awaiter (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:24:12)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -75,7 +71,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 323639262
+              "duration": 296594082
             }
           }
         ],
@@ -103,7 +99,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 826171897
+              "duration": 1272806771
             }
           },
           {
@@ -111,12 +107,9 @@
             "keyword": "Given ",
             "line": 6,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 861037591
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -125,11 +118,11 @@
             "line": 7,
             "name": "I login with username \"testeur_integration_2\" and password \"testeur_qa_2\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 3965740339
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -141,9 +134,8 @@
               "location": "step-definitions/dashboard.steps.ts:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 3092150,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'clickCreatePostButton')\n    at AllureCucumberWorld.<anonymous> (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:15:25)\n    at /home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:8:71\n    at __awaiter (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:24:12)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -164,7 +156,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 278291208
+              "duration": 311741593
             }
           }
         ],
@@ -203,7 +195,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 617313544
+              "duration": 970151269
             }
           },
           {
@@ -211,12 +203,9 @@
             "keyword": "Given ",
             "line": 5,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 362089018
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -225,11 +214,11 @@
             "line": 6,
             "name": "I login with username \"testeur_integration\" and password \"testeur_qa\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 3202981771
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -238,11 +227,11 @@
             "line": 7,
             "name": "I should be redirected to the dashboard",
             "match": {
-              "location": "step-definitions/login.steps.ts:17"
+              "location": "step-definitions/login.steps.ts:20"
             },
             "result": {
-              "status": "passed",
-              "duration": 166380018
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -250,7 +239,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 155030195
+              "duration": 139658124
             }
           }
         ],
@@ -278,7 +267,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 597389627
+              "duration": 597769725
             }
           },
           {
@@ -286,12 +275,9 @@
             "keyword": "Given ",
             "line": 5,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 566358884
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -300,11 +286,11 @@
             "line": 6,
             "name": "I login with username \"testeur_integration_2\" and password \"testeur_qa_2\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 968786152
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -313,11 +299,11 @@
             "line": 7,
             "name": "I should be redirected to the dashboard",
             "match": {
-              "location": "step-definitions/login.steps.ts:17"
+              "location": "step-definitions/login.steps.ts:20"
             },
             "result": {
-              "status": "passed",
-              "duration": 125133260
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -325,7 +311,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 116625486
+              "duration": 173378742
             }
           }
         ],
@@ -343,6 +329,150 @@
       },
       {
         "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 656719839
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the login page \"http://192.168.1.95:9092/admin/login/?next=/admin/\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with username \"testeur_recette\" and password \"testeur_qa_3\"",
+            "match": {
+              "location": "step-definitions/login.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "step-definitions/login.steps.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 141356222
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid",
+            "line": 3
+          },
+          {
+            "name": "@recette",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 689343580
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the login page \"http://192.168.1.95:9092/admin/login/?next=/admin/\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with username \"testeur_recette_2\" and password \"testeur_qa_4\"",
+            "match": {
+              "location": "step-definitions/login.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "step-definitions/login.steps.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 217400626
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid",
+            "line": 3
+          },
+          {
+            "name": "@recette",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
         "id": "login;failed-login-with-wrong-credentials",
         "keyword": "Scenario",
         "line": 30,
@@ -353,7 +483,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 698245698
+              "duration": 749019671
             }
           },
           {
@@ -361,12 +491,9 @@
             "keyword": "Given ",
             "line": 23,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 573683298
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -375,11 +502,11 @@
             "line": 24,
             "name": "I login with username \"testeur_integration\" and password \"testeur_qa_faux\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 1001636721
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -388,11 +515,11 @@
             "line": 25,
             "name": "I should see an error message",
             "match": {
-              "location": "step-definitions/login.steps.ts:22"
+              "location": "step-definitions/login.steps.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 168368836
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -400,7 +527,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 140693662
+              "duration": 102270344
             }
           }
         ],
@@ -428,7 +555,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 614313364
+              "duration": 570551459
             }
           },
           {
@@ -436,12 +563,9 @@
             "keyword": "Given ",
             "line": 23,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 1275458317
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -450,11 +574,11 @@
             "line": 24,
             "name": "I login with username \"testeur_integration_faux\" and password \"testeur_qa\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 1847348660
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -463,11 +587,11 @@
             "line": 25,
             "name": "I should see an error message",
             "match": {
-              "location": "step-definitions/login.steps.ts:22"
+              "location": "step-definitions/login.steps.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 116513473
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -475,7 +599,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 110437931
+              "duration": 126994893
             }
           }
         ],
@@ -503,7 +627,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 588300267
+              "duration": 593487675
             }
           },
           {
@@ -511,12 +635,9 @@
             "keyword": "Given ",
             "line": 23,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 339914552
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -525,11 +646,11 @@
             "line": 24,
             "name": "I login with username \"testeur_integration_2\" and password \"testeur_qa_2_faux\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 1033572347
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -538,11 +659,11 @@
             "line": 25,
             "name": "I should see an error message",
             "match": {
-              "location": "step-definitions/login.steps.ts:22"
+              "location": "step-definitions/login.steps.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 115796312
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -550,7 +671,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 109335290
+              "duration": 132463069
             }
           }
         ],
@@ -578,7 +699,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 589545574
+              "duration": 634988656
             }
           },
           {
@@ -586,12 +707,9 @@
             "keyword": "Given ",
             "line": 23,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 3833841706
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -600,11 +718,11 @@
             "line": 24,
             "name": "I login with username \"testeur_integration_2_faux\" and password \"testeur_qa_2\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 759585172
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -613,11 +731,11 @@
             "line": 25,
             "name": "I should see an error message",
             "match": {
-              "location": "step-definitions/login.steps.ts:22"
+              "location": "step-definitions/login.steps.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 129420326
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -625,7 +743,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 111769786
+              "duration": 149066611
             }
           }
         ],
@@ -637,6 +755,294 @@
           {
             "name": "@int",
             "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;failed-login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Failed login with wrong credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 684287140
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open the login page \"http://192.168.1.95:9092/admin/login/?next=/admin/\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I login with username \"testeur_recette\" and password \"testeur_qa_3_faux\"",
+            "match": {
+              "location": "step-definitions/login.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see an error message",
+            "match": {
+              "location": "step-definitions/login.steps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 137758818
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalid",
+            "line": 21
+          },
+          {
+            "name": "@recette",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;failed-login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Failed login with wrong credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 933902107
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open the login page \"http://192.168.1.95:9092/admin/login/?next=/admin/\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I login with username \"testeur_recette_faux\" and password \"testeur_qa_3\"",
+            "match": {
+              "location": "step-definitions/login.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see an error message",
+            "match": {
+              "location": "step-definitions/login.steps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 130422632
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalid",
+            "line": 21
+          },
+          {
+            "name": "@recette",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;failed-login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Failed login with wrong credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 606881671
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open the login page \"http://192.168.1.95:9092/admin/login/?next=/admin/\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I login with username \"testeur_recette_2\" and password \"testeur_qa_4_faux\"",
+            "match": {
+              "location": "step-definitions/login.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see an error message",
+            "match": {
+              "location": "step-definitions/login.steps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 143094055
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalid",
+            "line": 21
+          },
+          {
+            "name": "@recette",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;failed-login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Failed login with wrong credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 555785418
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open the login page \"http://192.168.1.95:9092/admin/login/?next=/admin/\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I login with username \"testeur_recette_2_faux\" and password \"testeur_qa_4\"",
+            "match": {
+              "location": "step-definitions/login.steps.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see an error message",
+            "match": {
+              "location": "step-definitions/login.steps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 127866316
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalid",
+            "line": 21
+          },
+          {
+            "name": "@recette",
+            "line": 35
           }
         ],
         "type": "scenario"
@@ -656,7 +1062,7 @@
         "description": "",
         "id": "post;create-post-button",
         "keyword": "Scenario Outline",
-        "line": 17,
+        "line": 18,
         "name": "Create post button",
         "steps": [
           {
@@ -664,7 +1070,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 612705600
+              "duration": 563028929
             }
           },
           {
@@ -672,12 +1078,9 @@
             "keyword": "Given ",
             "line": 7,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 2769875508
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -686,31 +1089,30 @@
             "line": 8,
             "name": "I login with username \"testeur_integration\" and password \"testeur_qa\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 1046652489
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
+            "line": 10,
             "name": "je clique sur le bouton add post",
             "match": {
               "location": "step-definitions/dashboard.steps.ts:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 1653981,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'clickCreatePostButton')\n    at AllureCucumberWorld.<anonymous> (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:15:25)\n    at /home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:8:71\n    at __awaiter (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:24:12)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 11,
             "name": "je suis redirige vers la page de creation de post",
             "match": {
               "location": "step-definitions/dashboard.steps.ts:18"
@@ -723,7 +1125,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 11,
+            "line": 12,
             "name": "je creer un post avec \"titre integration 1\" et \"content integration 1\" et je clique sur le bouton save",
             "match": {
               "location": "step-definitions/post.steps.ts:9"
@@ -736,7 +1138,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
+            "line": 13,
             "name": "je vois mon super post dans la liste des posts",
             "match": {
               "location": "step-definitions/post.steps.ts:14"
@@ -751,7 +1153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 265348798
+              "duration": 123116356
             }
           }
         ],
@@ -762,7 +1164,7 @@
           },
           {
             "name": "@int",
-            "line": 14
+            "line": 15
           }
         ],
         "type": "scenario"
@@ -771,7 +1173,7 @@
         "description": "",
         "id": "post;create-post-button",
         "keyword": "Scenario Outline",
-        "line": 18,
+        "line": 19,
         "name": "Create post button",
         "steps": [
           {
@@ -779,7 +1181,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 581517767
+              "duration": 610038330
             }
           },
           {
@@ -787,12 +1189,9 @@
             "keyword": "Given ",
             "line": 7,
             "name": "I open the login page \"http://192.168.1.95:9091/admin/login/?next=/admin/\"",
-            "match": {
-              "location": "step-definitions/login.steps.ts:8"
-            },
             "result": {
-              "status": "passed",
-              "duration": 3771445948
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -801,31 +1200,30 @@
             "line": 8,
             "name": "I login with username \"testeur_integration\" and password \"testeur_qa_2\"",
             "match": {
-              "location": "step-definitions/login.steps.ts:13"
+              "location": "step-definitions/login.steps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 2826741762
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
+            "line": 10,
             "name": "je clique sur le bouton add post",
             "match": {
               "location": "step-definitions/dashboard.steps.ts:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 1496318,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'clickCreatePostButton')\n    at AllureCucumberWorld.<anonymous> (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:15:25)\n    at /home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:8:71\n    at __awaiter (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:4:12)\n    at AllureCucumberWorld.<anonymous> (/home/achour/Documents/playwright-cucumber-ci-cd-sayf/step-definitions/dashboard.steps.ts:24:12)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 11,
             "name": "je suis redirige vers la page de creation de post",
             "match": {
               "location": "step-definitions/dashboard.steps.ts:18"
@@ -838,7 +1236,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 11,
+            "line": 12,
             "name": "je creer un post avec \"title recette 1\" et \"content recette 2\" et je clique sur le bouton save",
             "match": {
               "location": "step-definitions/post.steps.ts:9"
@@ -851,7 +1249,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
+            "line": 13,
             "name": "je vois mon super post dans la liste des posts",
             "match": {
               "location": "step-definitions/post.steps.ts:14"
@@ -866,7 +1264,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 219462320
+              "duration": 127913777
             }
           }
         ],
@@ -877,7 +1275,7 @@
           },
           {
             "name": "@int",
-            "line": 14
+            "line": 15
           }
         ],
         "type": "scenario"
