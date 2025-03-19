@@ -1,7 +1,7 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
-import DashboardPage from '../pages/Dashboard'; 
-import CreatePost from '../pages/CreatePost';
+import DashboardPage from '../pages/DashboardPage'; 
+import CreatePost from '../pages/CreatePostPage';
 
 let dashboardPage: DashboardPage;
 
